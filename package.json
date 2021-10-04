@@ -1,6 +1,6 @@
 {
   "name": "firebase-config-type-definition",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Let's typecheck of firebase config",
   "types": "dist/index.d.ts",
   "scripts": {
