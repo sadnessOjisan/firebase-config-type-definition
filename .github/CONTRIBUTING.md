@@ -1,4 +1,4 @@
-# HOW TO CONTRIBUTING
+# HOW TO CONTRIBUTE
 
 ## Setup
 
