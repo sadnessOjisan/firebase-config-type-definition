@@ -1,7 +1,7 @@
 # firebase-config-type-definition
 
 <p align="center">
-  <img src="./images/logo.png" />
+  <img src="https://raw.githubusercontent.com/sadnessOjisan/firebase-config-type-definition/main/images/logo.png" />
 </p>
 
 Let's typecheck of firebase config.
