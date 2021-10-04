@@ -4,7 +4,7 @@
   "description": "Let's typecheck of firebase config",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "ts-node src/internal/firebase-config-shema-converter.ts && tsc",
+    "build": "ts-node src/internal/firebase-config-schema-converter.ts && tsc",
     "lint:fix": "eslint --fix '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
     "lint:ci": "eslint '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
     "format:fix": "prettier --write '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
