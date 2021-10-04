@@ -1,1 +1,3 @@
-export type Firebaserc = {};
+export type Firebaserc = {
+  // TODO: impl
+};
