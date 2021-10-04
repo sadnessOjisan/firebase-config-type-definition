@@ -1,0 +1,30 @@
+name: DEV
+
+on:
+  push:
+    branches:
+      - "*"
+      - "*/*"
+      - "**"
+      - "!main"
+
+jobs:
+  release:
+    name: check version, add tag and release
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+          registry-url: "https://registry.npmjs.org"
+      - name: install
+        run: npm install
+      - name: lint
+        run: npm run lint:ci
+      - name: format
+        run: npm run format:ci
+      - name: build library
+        run: npm run build
