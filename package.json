@@ -2,9 +2,13 @@
   "name": "firebase-config-type-definition",
   "version": "0.0.1",
   "description": "Let's typecheck",
-  "main": "index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "lint:fix": "eslint --fix '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
+    "lint:ci": "eslint '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
+    "format:fix": "prettier --write '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
+    "format:ci": "prettier --check '**/src/**/*.{ts,tsx,js,jsx,json,md}'"
   },
   "repository": {
     "type": "git",
