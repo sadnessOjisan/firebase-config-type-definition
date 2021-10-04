@@ -1,10 +1,10 @@
 {
   "name": "firebase-config-type-definition",
   "version": "0.0.1",
-  "description": "Let's typecheck",
+  "description": "Let's typecheck of firebase config",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc && ts-node src/internal/firebase-config-shema-converter.ts",
+    "build": "ts-node src/internal/firebase-config-shema-converter.ts && tsc",
     "lint:fix": "eslint --fix '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
     "lint:ci": "eslint '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
     "format:fix": "prettier --write '**/src/**/*.{ts,tsx,js,jsx,json,md}'",
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/sadnessOjisan/firebase-config-type-definition.git"
   },
   "author": "@sadness_ojisan",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sadnessOjisan/firebase-config-type-definition/issues"
   },
