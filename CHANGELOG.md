@@ -9,4 +9,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
-- Add typedef of .firebaserc and firebase.json
+- Add typedef of `.firebaserc` and firebase.json
+- Add typedef of `firebase.json` and firebase.json
