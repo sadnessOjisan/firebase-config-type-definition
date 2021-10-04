@@ -1,3 +1,13 @@
 export type FirebaseConfig = {
-  // TODO: impl
+  hosting?: {
+    public: string;
+    ignore: string[];
+  };
+  firestore?: {
+    rules: string;
+    indexes: string;
+  };
+  functions?: {
+    predeploy: string[];
+  };
 };
