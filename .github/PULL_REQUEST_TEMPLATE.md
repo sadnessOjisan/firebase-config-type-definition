@@ -1,0 +1,1 @@
+- [ ] pass static check `npm run typecheck && npm run lint:ci && npm run format:ci`
