@@ -1,7 +1,7 @@
 # firebase-config-type-definition
 
 <p align="center">
-  <img src="./images/logo.png" />
+  <img src="https://raw.githubusercontent.com/sadnessOjisan/firebase-config-type-definition/main/images/logo.png" />
 </p>
 
 Let's typecheck of firebase config.
@@ -11,6 +11,12 @@ Let's typecheck of firebase config.
 I didn't firebase config checker.
 
 ## 🔧 How to use
+
+### Try in CodeSandbox
+
+https://codesandbox.io/embed/zealous-http-2dbzv?fontsize=14&hidenavigation=1&theme=dark
+
+### Try in your env
 
 Copy your firebase config to ts file. And use this library's type definition.
 
