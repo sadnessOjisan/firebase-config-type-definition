@@ -12,6 +12,12 @@ I didn't firebase config checker.
 
 ## 🔧 How to use
 
+### Try in CodeSandbox
+
+https://codesandbox.io/embed/zealous-http-2dbzv?fontsize=14&hidenavigation=1&theme=dark
+
+### Try in your env
+
 Copy your firebase config to ts file. And use this library's type definition.
 
 ```sh
